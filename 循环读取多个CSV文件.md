@@ -1,4 +1,4 @@
-遍历一个文件夹里的所有CSV文件  
+```{r}
 > setwd("D:/工作/实车数据/观致数据/sourceData_16/LLNC1AAB4FA000781")  
 > getwd  
 > a = list.files()  
@@ -9,3 +9,4 @@
 >   merge.data = rbind(merge.data, new.data)  
 >   }  
 > write.csv(merge.data, file = "merge_data.csv", row.names = F) #生成CSV文件  
+```
