@@ -1,4 +1,0 @@
-stopifnot(
-  all.equal(vacc1(age, female, ily), vacc2(age, female, ily)),
-  all.equal(vacc1(age, female, ily), vacc3(age, female, ily))
-)
